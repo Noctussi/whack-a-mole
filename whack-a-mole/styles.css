@@ -1,0 +1,21 @@
+body {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
+}
